@@ -50,5 +50,8 @@ body, html {
 }
 
 .container {
+  display: grid;
+  grid-template-rows: 1fr, 1fr, minmax(5fr), 1fr, 1fr;
+  grid-template-columns: 1fr, minmax(3fr);
   gap: 15px;
 }
