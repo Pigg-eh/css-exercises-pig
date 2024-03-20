@@ -89,3 +89,28 @@
   font-size: 13px;
   font-weight: normal;  
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr ;
+  gap: 4px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-column: 1 / 4;
+}
+
+.menu > ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+.sidebar {
+  grid-row: 1 2;
+  grid-column: 2 3;
+}
